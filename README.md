@@ -56,7 +56,7 @@ Implemented using an **MVC pattern** and design patterns (**Singleton**, **Obser
 
 ---
 
-## 💻 Software Environment  
+## Software Environment  
 
 **Hardware setup:**  
 - CPU: Intel Core i5-12400F  
@@ -67,16 +67,13 @@ Implemented using an **MVC pattern** and design patterns (**Singleton**, **Obser
 
 **Software tools:**  
 - **VS Code** – code editor  
-- **GitHub** – version control  
-- **Overleaf (LaTeX)** – report writing  
 - **SolidWorks** – 3D modeling  
-- **StarUML** – UML diagrams  
 - **Arduino IDE / MicroPython** – ESP32 development  
 - **Raspberry Pi Imager** – system installation  
 
 ---
 
-## 🧾 Technologies & Libraries  
+## Technologies & Libraries  
 
 | Language | Usage |
 |-----------|--------|
