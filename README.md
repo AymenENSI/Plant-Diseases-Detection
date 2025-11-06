@@ -1,9 +1,9 @@
-# 🌿 Plant Diseases Detection  
+# Plant Diseases Detection  
 > Embedded AI system for early plant disease detection using Raspberry Pi 4, ESP32, and ResNet-50.
 
 ---
 
-## 🧩 Overview  
+## Overview  
 This project aims to design and implement an **embedded intelligent system** capable of detecting plant diseases using **computer vision** and **environmental sensors**.  
 The solution combines:
 - A **ResNet-50** deep learning model deployed on a **Raspberry Pi 4**.  
@@ -14,7 +14,7 @@ The system assists farmers and agronomists in early disease detection — even *
 
 ---
 
-## 🎯 Objectives  
+##  Objectives  
 - **Real-time image analysis** of plant leaves using ResNet-50.  
 - **Acquisition of environmental data** (temperature, soil moisture, light intensity).  
 - **On-device disease prediction** and OLED display output.  
@@ -22,14 +22,14 @@ The system assists farmers and agronomists in early disease detection — even *
 
 ---
 
-## 🧠 Methodology  
+##  Methodology  
 Two complementary development models were adopted:
 - **CRISP-DM** for building and validating the machine learning model.  
 - **V-Model** for the embedded hardware–software development cycle.  
 
 ---
 
-## ⚙️ System Architecture  
+##  System Architecture  
 
 ### Physical Architecture  
 - **Tier 1 — Presentation:** OLED display (output interface).  
@@ -41,7 +41,7 @@ Implemented using an **MVC pattern** and design patterns (**Singleton**, **Obser
 
 ---
 
-## 🧰 Hardware Components  
+## Hardware Components  
 
 | Component | Function |
 |------------|-----------|
@@ -93,7 +93,7 @@ Implemented using an **MVC pattern** and design patterns (**Singleton**, **Obser
 
 ---
 
-## 🧬 Model Development  
+##  Model Development  
 
 ### Dataset  
 - **PlantVillage Dataset** — 54 315 images of 14 crops and 38 disease classes.  
@@ -122,7 +122,7 @@ The model was exported as a `.pth` file and later integrated into the Raspberry 
 
 ---
 
-## 🚀 Deployment  
+## Deployment  
 
 1. Install **Raspberry Pi OS** using Raspberry Pi Imager.  
 2. Enable **SSH** and configure Wi-Fi for remote access.  
